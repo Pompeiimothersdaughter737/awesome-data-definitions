@@ -22,12 +22,12 @@ Perfect for:
 
 | Domain | Definitions | Sample |
 |--------|------------|---------|
-| Healthcare | 4,600+ | [View Samples](./healthcare/) |
-| Banking & Finance | 2,100+ | [View Samples](./banking-finance/) |
-| Retail & E-commerce | 1,600+ | [View Samples](./retail-ecommerce/) |
-| Software | 3,300+ | [View Samples](./software/) |
-| Pharmacy | 400+ | [View Samples](./pharmacy/) |
-| Global Fleet | 400+ | [View Samples](./global-fleet/) |
+| Healthcare | 4,600+ | [View Samples](./healthcare/common-terms.md) |
+| Banking & Finance | 2,100+ | [View Samples](./banking-finance/payment-terms.md) |
+| Retail & E-commerce | 1,600+ | [View Samples](./retail-ecommerce/order-management.md) |
+| Software | 3,300+ | [View Samples](./software/database-terms.md) |
+| Pharmacy | 400+ | [View Samples](./pharmacy/prescription-fields.md) |
+| Global Fleet | 400+ | [View Samples](./global-fleet/logistics-terms.md) |
 
 **Total: 17,000+ verified definitions** | [Browse all →](https://www.mdatool.com)
 
@@ -147,22 +147,17 @@ Enforce consistent naming conventions
 ---
 
 ## 📂 Repository Structure
+
 ```
 awesome-data-definitions/
 ├── healthcare/
-│   ├── common-terms.md
-│   ├── hipaa-fields.md
-│   └── hl7-fhir-resources.md
+│   └── common-terms.md
 ├── banking-finance/
-│   ├── payment-terms.md
-│   ├── regulatory-fields.md
-│   └── swift-codes.md
+│   └── payment-terms.md
 ├── retail-ecommerce/
-│   ├── product-catalog.md
 │   └── order-management.md
 ├── software/
-│   ├── database-terms.md
-│   └── api-standards.md
+│   └── database-terms.md
 ├── pharmacy/
 │   └── prescription-fields.md
 ├── global-fleet/
@@ -179,7 +174,7 @@ awesome-data-definitions/
 
 - **Blog**: [Engineering guides and best practices](https://www.mdatool.com/blog)
 - **Glossary**: [Browse all 17,000+ definitions](https://www.mdatool.com/glossary)
-- **Documentation**: [API access and integration](https://www.mdatool.com/docs)
+- **Naming Guide**: [Complete database naming conventions](./naming-conventions/database-standards.md)
 
 ---
 
@@ -188,12 +183,16 @@ awesome-data-definitions/
 Want to add definitions or suggest improvements?
 
 1. This is a **sample repository** - full database at [mdatool.com](https://www.mdatool.com)
-2. Submit suggestions via [contact form](https://www.mdatool.com/contact)
+2. Submit suggestions via [Issues](https://github.com/smudvar/awesome-data-definitions/issues)
 3. For enterprise contributions, email: admin@mdatool.com
+
+See [CONTRIBUTING.md](./CONTRIBUTING.md) for details.
 
 ---
 
 ## 📜 License
+
+MIT License - see [LICENSE](./LICENSE) file for details.
 
 Sample definitions are provided for reference. Full access available at [mdatool.com](https://www.mdatool.com).
 
@@ -202,9 +201,9 @@ Sample definitions are provided for reference. Full access available at [mdatool
 ## ⭐ Support
 
 If you find this helpful:
-- Star this repository
-- Share with your team
-- Follow [@mdatool](https://twitter.com/mdatool) for updates
+- ⭐ Star this repository
+- 🔗 Share with your team
+- 🐦 Follow updates at [mdatool.com](https://www.mdatool.com)
 
 ---
 
